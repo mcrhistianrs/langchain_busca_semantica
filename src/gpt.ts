@@ -48,6 +48,7 @@ async function main() {
   console.log(response.answer);
 
   await redis.disconnect();
+  
 }
 
 main();
